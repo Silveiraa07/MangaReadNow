@@ -1,0 +1,130 @@
+@import url("style.css");
+
+/*Imagem atrás da logo*/
+body > article {
+    background-image: url("../imgs/backgroundHome.jpeg.jpg");
+    display: flex;
+    padding: 5rem 2.5rem;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 20px 50px #28353f;
+    margin-bottom: 1.5rem;
+  }
+
+  /*Barra de navegação*/
+body > nav > a {
+    display: flex;
+    margin-right: 1rem;
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
+
+  body > nav{
+    display: flex;
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
+
+body > nav > span {
+    margin-right: 1rem;
+}
+
+body > main > div.card {
+    width: 87rem;
+    height: 54.3rem;
+    margin-bottom: 3rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    border-radius: 1.5rem;
+    background-color: #113f4b;
+}
+
+body > main > div > article > div {
+    color: #ffffff;
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+body > main > div > article > div > h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+body > main > div > article > div > h3.card {
+    display: flex;
+    width: 21rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    background-color: #ffffff;
+}
+
+body > main > div > article > div > h3 {
+    color: #28353f;
+}
+
+body > main > div > article > img {
+    display: flex;
+    padding: 3rem;
+    float: left;
+    border-radius: 3.5rem;
+}
+
+body > main > div > article > div > h4 {
+    display: flex;
+    font-size: 3rem;
+    float: left;
+}
+
+body > main > div > article > div > h5 {
+    display: flex;
+    padding: 0.3rem;
+    color: #F48503;
+    font-size: 2.8rem;
+}
+
+body > main > div > article > div > i {
+    color: #f0f454;
+    font-size: 2rem;
+    display: flex;
+}
+
+body > main > div > article > div > p {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: cover;
+    background-color: #507079;
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+body > main > div > article:nth-child(3) > div > a:nth-child(9) {    
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+body > main > div > article > div > a > h1.card {
+    background-color: #141223;
+    padding: 1.5rem;
+    border-radius: 3rem;
+}
+
+#comentario {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+body > main > div > article > div > a > h2.card {
+    display: inline;
+    background-color: #507079;
+    padding: 1rem;
+    border-radius: 2rem;
+}
